@@ -19,8 +19,8 @@ Download the latest **development version** of [Dolphin](https://dolphin-emu.org
 
 Open your Dolphin application and locate your iso file to open up in Dolphin.
 
-Extract the iso disc contents by:
-- Right clicking on The Wind Waker iso on the game list that appears in Dolphin.
+Extract the iso disc contents:
+- Right click on The Wind Waker ROM on the game list that appears in Dolphin's main window.
 - Click on "Properties" and go to the "Filesystem" tab.
 - Right click on Disc and choose "Extract Entire Disc".
 
@@ -32,7 +32,7 @@ OR
 
 - Alternatively, if you want to change the players' colors or don't want to use an external tool to patch the dol, you can use the "Patcher.jar" included instead. Make sure you have "Java" to run it. To run the program, open the "Patcher.jar", set the parameters you want and click "Patch!". The "Select dol" input corresponds to the original dol and "Select output" output corresponds to the path where the new dol will be created.
 
-(Make sure the "main.dol" file in "sys" folder is replaced with the newly patched one, still named as "main.dol")
+**Make sure the "main.dol" file in "sys" folder is replaced with the newly patched one, still named as "main.dol".**
 
 Replace your "bi2.bin" with the one in the archive depending on what ROM version (US or PAL) you have, and make sure to rename the new bin file so that it replaces the old one with the name still as "bi2.bin". Same idea as with the "main.dol" file.
 
@@ -78,7 +78,7 @@ Right click the game in your game list and choose "Properties".
 Click "Config" to open up Dolphin settings
 - Go to "Interface" tab, and change "Mouse Cursor Visibility" to "Never".
 
-Click "Controllers".
+In Dolphin's main window, click "Controllers".
 - Click "Configure" under "GameCube Controllers".
 - Select your device (Gamepad) from the "Device" drop down menu. Refresh if you don't see it.
 - The "C Stick" controls the camera. So remap and calibrate as necessary. Switch the "Right X+" and "Right X-" for inverted camera controls.
@@ -106,3 +106,10 @@ To connect to the host as a client:
 - Edit your "Nickname".
 - Input the host's IP address.
 - Click "Connect".
+
+## Sun Glare Lag
+All players must do this. Launch the game together through the Netplay lobby.
+- Go back to the main Dolphin window, and open the "Graphics" settings.
+- Under the "Hacks" tab, make sure "Skip EFB Access from CPU" is checked.
+
+This setting rests to unchecked every time you launch the game, so you have to do this after it's already running.
