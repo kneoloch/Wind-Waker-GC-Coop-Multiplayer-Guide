@@ -70,6 +70,10 @@ Right click the game in your game list and choose "Properties".
 - Click "Add New Code..." and add the [16:9 Aspect Ratio Fix](https://wiki.dolphin-emu.org/index.php?title=The_Legend_of_Zelda:_The_Wind_Waker) code depending on your ROM version.
 - Make sure the code is enabled with a checkmark on the left.
 
+In Dolphin's main window:
+- Click "Graphics".
+- Change "Aspect Ratio" to "Force 16:9".
+
 ### Graphics Mod
 - [Hypatia’s Hi-Res Wind Waker Texture Pack Version 2.0
 ](https://onthegreatsea.tumblr.com/DOWNLOADS)
