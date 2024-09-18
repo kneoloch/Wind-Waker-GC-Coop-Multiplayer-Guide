@@ -49,7 +49,6 @@ Click "Config" to open up Dolphin settings
 
 In the "General" tab:
 - Check "Enable Dual Core (speedhack)".
-- Check "Enable Cheats".
 
 Go to the "GameCube" tab.
 - Under "Device Settings", change "Slot A" to "Memory Card".
@@ -63,7 +62,10 @@ Go to the "Advanced" tab.
 If the game is lagging with 4 players, try various graphics engine in the graphics settings and tweak a bit the graphics settings.
 
 ### 16:9 Aspect Ratio
-- Right click the game in your game list and choose "Properties".
+Click "Config" to open up Dolphin settings
+- In the "General" tab, check "Enable Cheats".
+  
+Right click the game in your game list and choose "Properties".
 - Go to "Gecko Codes" tab.
 - Click "Add New Code..." and add the [16:9 Aspect Ratio Fix](https://wiki.dolphin-emu.org/index.php?title=The_Legend_of_Zelda:_The_Wind_Waker) code depending on your ROM version.
 - Make sure the code is enabled with a checkmark on the left.
