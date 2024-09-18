@@ -15,9 +15,9 @@ Download a US or PAL (Europe) version of The Wind Waker (GC) iso from your trust
 
 **Make sure all players have the same ROM version. Keep all files and configs consistent.**
 
-Download the latest **development version** of [Dolphin](https://dolphin-emu.org/download/).
+Download the latest **development version** of [Dolphin](https://dolphin-emu.org/download/). (Currently using: Dolphin 2409-37) 
 
-Open your Dolphin application (currently using: dolphin-master-2409-37-x64) and locate your iso file to open up in Dolphin.
+Open your Dolphin application and locate your iso file to open up in Dolphin.
 
 Extract the iso disc contents by:
 - Right clicking on The Wind Waker iso on the game list that appears in Dolphin.
